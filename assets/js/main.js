@@ -103,7 +103,7 @@ window.addEventListener("scroll", scrollActive);
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
 const sr = ScrollReveal({
-    origin: "top",
+    origin: "left",
     distance: "60px",
     duration: 2500,
     daly: 400,
@@ -118,7 +118,3 @@ sr.reveal(`.about__data, .skills__data`, { origem: "bottom" });
 sr.reveal(`.about__image, .skills__content `, { origem: "right" });
 
 sr.reveal(`.projects__card`, { interval: 100 });
-
-sr.reveal(`.home__image`, { origem: "right" });
-sr.reveal(`.home__image`, { origem: "right" });
-sr.reveal(`.home__image`, { origem: "right" });
