@@ -24,8 +24,8 @@
     --first-color-alt: hsl(var(--hue), 56%, 35%);
     --title-color: hsl(228, 8%, 95%);
     --text-color: hsl(228, 8%, 65%);
-    --body-color: hsl(228, 15%, 20%);
-    --container-color: hsl(228, 15%, 15%);
+    --body-color: hsl(231, 21%, 12%);
+    --container-color: hsl(228, 12%, 8%);
 
     /*========== Font and typography ==========*/
     /*.5rem = 8px | 1rem = 16px ...*/
@@ -168,6 +168,8 @@ svg {
 .nav {
     height: var(--header-height);
     display: flex;
+    margin-left: 2rem;
+    margin-right: 2rem;
     justify-content: space-between;
     align-items: center;
 }
