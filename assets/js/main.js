@@ -24,7 +24,7 @@ const linkAction = () => {
     // When we click on each nav__link, remove the show-menu class and hide the menu
     navMenu.classList.remove("show-menu");
 };
-navlink.forEach((n) => n, addEventListener("click", linkAction));
+navlink.forEach((n) => n.addEventListener("click", linkAction));
 
 /*=============== ADD BLUR TO HEADER ===============*/
 const bluerlHeader = () => {
@@ -37,6 +37,7 @@ const bluerlHeader = () => {
         : header.classList.remove("bluer-header");
 };
 window.addEventListener("scroll", bluerlHeader);
+
 /*=============== EMAIL JS ===============*/
 const contactForm = document.getElementById("contact-form"),
     contactMessage = document.getElementById("contact-message");

@@ -199,7 +199,7 @@ svg {
         padding: 4.5rem 0 0 3rem;
         backdrop-filter: blur(24px);
         -webkit-backdrop-filter: blur(24px);
-        transition: right.4s;
+        transition: right 0.4s;
     }
 }
 .nav__list {
@@ -238,7 +238,7 @@ svg {
     -webkit-backdrop-filter: blur(24px);
     top: 0;
     left: 0;
-    z-index: var(-1);
+    z-index: -1;
 }
 /* Active link */
 .active-link {
