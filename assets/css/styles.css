@@ -502,6 +502,9 @@ svg {
 .footer__education {
     font-size: var(--normal-font-size);
 }
+.footer__education span {
+    color: var(--first-color);
+}
 .footer__social {
     display: flex;
     justify-content: center;
